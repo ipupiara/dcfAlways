@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<target clocksource="0" binary="C:\projects\dcfAlways-uC\dcfAlways-uc-A32SWin\OS_Workspace\OS\Debug\OS_Debug.elf" binary-date="1338861512609" cpu="UC3A0512" comport="" daisybitsafter="0" daisyenabled="false" adapter="AVR Dragon" board="EVK1100" daisydevsbefore="0" daisydevsafter="0" id="3" default="false" connection-type="usb" name="AVR Dragon" daisybitsbefore="0" serial="00A200017853">
+	<description></description>
+</target>

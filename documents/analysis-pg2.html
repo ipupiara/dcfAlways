@@ -1,0 +1,96 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>dcfAlways analysis</title>
+</head>
+
+<body bgcolor="#99CCFF">
+
+<p><font style="font-size: 20pt; font-weight: 700">dcfAlways analysis and design 
+ideas&nbsp;&nbsp; -&nbsp;&nbsp; page 2</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div style="position: absolute; width: 846px; height: 452px; z-index: 3; left: 11px; top: 87px" id="layer3">
+	<span style="font-weight: 700; text-decoration: underline"><font size="5">
+	Step 2 - find </font></span><span style="text-decoration: underline">
+	<font size="5"><span style="font-weight: 700">a first time-hypothesis</span></font></span><p>
+	<span style="font-size: 13pt">a dcf message can be divided into different 
+	bands: general info, minute, hour, day, weekday, month and year band. There 
+	are actually 60 different values/constellations for the minute band, 24 for 
+	the hour band, 31 for the day band and 12 for the month band. It seems most 
+	practicable to search each band as a whole, for all of&nbsp; its possible 
+	values. While each minute band will be forwarded one step per minute to give 
+	a single one matching&nbsp; band, the hours, day, month will be left without 
+	any forwarding as long as the time hypothesis is not yet clearly found. The 
+	user shall be given the advise better not to start the application at the 
+	end of an hour, since otherwise, the detection of a hypothesis might take 
+	some longer because the hour band will be set&nbsp; forward undetected after 
+	minute 59.. </span></p>
+	<p><span style="font-size: 13pt">Once the minute is found clearly, the hours 
+	can be forwarded one position as well after the 59th minute, as well as in 
+	the same manner&nbsp; the days, months and years. Probable it will be best 
+	to use some kind of weighted average over several minutes to define the 
+	correlations <font face="Times New Roman">&#961;</font>, so that any wrong value 
+	will fall out soon. Since the years can have rather a lot of values but very 
+	seldom a change during application run, their value shall be found on a one 
+	bit per correlation base and not as a band.</span></p>
+	<p><span style="font-size: 13pt">It has to be verified with PTB that they 
+	always use the same constellation of bits for any single value since there 
+	are more than one possibility for many values.</span></p>
+	<p><span style="font-size: 13pt">During a time hypothesis is searched, the 
+	application will also verify the 0-second position and </span>
+	<font face="Times New Roman" style="font-size: 13pt">&#948;T. Therefor second 
+	58,59, 0 and 1 will be recorded on a sec100 granularity with the 0-1 mask, 
+	the 0-second position will be tested within second 59 and 0. Any &#948;T will be 
+	updated discretely and in case of a 0-second position error, step 0 and 1 
+	will be repeated completely.</font></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div style="position: absolute; width: 845px; height: 304px; z-index: 4; left: 11px; top: 609px" id="layer4">
+	<span style="font-weight: 700; text-decoration: underline"><font size="5">
+	Step 3 - verify</font></span><span style="text-decoration: underline"><font size="5"><span style="font-weight: 700"> 
+	time-hypothesis</span></font></span><p><span style="font-size: 13pt">As soon 
+	as all the time bands are found clearly, statistics will be reset, and the 
+	hypothesis checked over a few minutes. Now all the timebands will be 
+	forwarded as needed. It is not yet clear, if the bands shall be checked for 
+	correlation to all its possible value or just towards the expected value. It 
+	is foreseen, to calculate the normal average values instead of the weighted 
+	values, with regualr statistics update, respectively setting average over 
+	n-values as average over much less values (eg. 1, 3 or 5) to give the 
+	current values more weight..... yet to be defined...</span></p>
+	<p><span style="font-size: 13pt">Again, the 0-second position and</span><font face="Times New Roman" style="font-size: 13pt"> 
+	&#948;T </font><span style="font-size: 13pt">&nbsp;will be checked/updated in the 
+	same way as in step 2.</span></p>
+	<p>&nbsp;</p>
+	<p><span style="font-weight: 700; text-decoration: underline">
+	<font size="5">Step 4 - time forwarding in real-time</font></span></p>
+	<p><span style="font-size: 13pt">After a short time of time-hypothesis 
+	verification, the time shall be forwarded in realtime to the user. This will 
+	be done in dcf coding at the same time, the code comes in since the 
+	application knows it in forward, but also it shall be transmitted as time 
+	string over RS232, USB. </span></p>
+	<p>&nbsp;</p>
+	<p><a href="dcfAlwaysClassModel.pdf" target = _blank>Object Model</a>&nbsp;&nbsp;&nbsp; //&nbsp;&nbsp; 
+	work in progress, 7. mar 2012, more to come soon.</p>
+	<p><a href="dcfAlwaysInitAndStartModel.pdf" target = _blank>Startup Model interaction 
+	diagram</a></p>
+	<p><a href="dcfAlwaysSearch01AndDT.pdf" target = _blank>Search 01 interaction diagram</a></p>
+	<p>// ATTENTION: WORK IN Progress, above diagrams are still object to 
+	change, any input&nbsp; is highly welcomed</p>
+	<p>&nbsp;</p>
+	<p><span style="font-size: 13pt"><a href="analysis.html">page 1</a></span></p>
+	<p><span style="font-size: 13pt"><a href="dcfAlways-index.html">back to 
+	dcfAlways-index</a></span></p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</div>
+
+</body>
+
+</html>

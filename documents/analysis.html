@@ -1,0 +1,101 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>dcfAlways analysis</title>
+</head>
+
+<body bgcolor="#99CCFF">
+
+<p><font style="font-size: 20pt; font-weight: 700">dcfAlways analysis and design ideas&nbsp;&nbsp; 
+-&nbsp;&nbsp; page 1</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div style="position: absolute; width: 582px; height: 635px; z-index: 1; left: 10px; top: 97px" id="layer1">
+	<span style="font-size: 13pt">the true message content of a dcf message, 
+	which each takes one minute to transmit, shall be found by combining several 
+	weak or defective messages to find the true content of the transmission.</span><p>
+	<span style="font-size: 13pt">The content of the digital message (0 or 1) 
+	sent from the receiver to the CPU will be searched 
+	using the famous correlation integral and cross correlation factor:</span></p>
+	<p><img border="0" src="correlation-cro1.jpg" width="408" height="177"></p>
+	<p>where the cross correlation factor <font face="Times New Roman">&#961; (rho)</font> 
+	is defined as:</p>
+	<p><img border="0" src="correlation-cro2.jpg" width="132" height="37"></p>
+	<p>with&nbsp; <font face="Times New Roman">&#961; between 1 and -1</font></p>
+	<p>&nbsp;</p>
+	<p><font face="Times New Roman" style="font-size: 13pt">The whole process 
+	can be devided into four section:</font></p>
+	<ol>
+		<li><font face="Times New Roman" style="font-size: 13pt">find the 0 
+		second (S0, start of minute) and the exact start of a second (&#948;T). and 
+		switch the time coordinates to the start of minute and and &#948;T</font></li>
+		<li><font face="Times New Roman" style="font-size: 13pt">find a 
+		time-hypothesis and verify/correct S0, &#948;T</font></li>
+		<li><font face="Times New Roman" style="font-size: 13pt">check the time-hypothesis and continue verify S0, &#948;T</font></li>
+		<li><font face="Times New Roman" style="font-size: 13pt">send the dcf 
+		signal in realtime to the clients and continue checking all values.</font></li>
+	</ol>
+	<p>&nbsp;</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div style="position: absolute; width: 881px; height: 919px; z-index: 3; left: 8px; top: 803px" id="layer3">
+	<span style="font-weight: 700; text-decoration: underline"><font size="5">
+	Step 1 - find S0 and dT</font></span><p><span style="font-size: 13pt">during 
+	this step the digital signal coming into the processor from the receiver is 
+	queried on a 100 times per second base (y function) and stored into a 
+	4-second ringbuffer. While the 4th second is read in, the first 3 seconds 
+	are checked thru a 0-1 mask (x function) and all the 100 Exy and Ey values 
+	are added into a 6´000 sec/100 minute-buffer as well the average
+	<font face="Times New Roman">&#961; correlation factor. After the 
+	second is over, the ringbuffer is forwarded 1 position and the oldest second 
+	will be overwritten by the next one..... and so on. This is done during 
+	several minutes until the 0-1 position if found clearly. The </font></span>
+	<font face="Times New Roman" style="font-size: 13pt">&#948;</font><span style="font-size: 13pt"><font face="Times New Roman">T 
+	will be found as the sec100 with the maximum correlation.</font></span></p>
+	<p><img border="0" src="corr0003-cro1.jpg" width="554" height="454"></p>
+	<p>&nbsp;</p>
+	<p><span style="font-size: 13pt">minimum Buffer requirement:</span></p>
+	<p><span style="font-size: 13pt">ringBuffer&nbsp;&nbsp; 4x100x1 bytes&nbsp; 
+	=&nbsp; 400 bytes to store digital function y value (0 or 1) per sec100</span></p>
+	<p><span style="font-size: 13pt">minuteBuffer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	6´000 x&nbsp; (2x2 + (2 or 4))&nbsp; = 24 to 32 kBytes&nbsp;&nbsp;bytes to 
+	store all Exy, Ey and rhoAVG in a 2 byte integer (probable rhoAvg as float ?). 
+	A multiple amount of memory is required when using TWA (time weighted average). So, 
+	sdram would be a good choise to store these big arrays. </span></p>
+	<p><span style="font-size: 13pt">For a step without TWA, the planned ATmega128 
+	with 64 kB external memory should be ok, and at 8 Mhz, also the performance 
+	should be ok, since for the digital data Exy, Ey integral building will be 
+	rather trivial without any floating number functions. Often needed values 
+	should be stored in ATmega128 internal part of memory and the seldom used 
+	variables in external values for better performance.</span></p>
+	<p>&nbsp;</p>
+	<p><span style="font-size: 13pt">
+	<a href="analysis-pg2.html">page 2</a></span></p>
+	<p><span style="font-size: 13pt"><a href="dcfAlways-index.html">back to 
+	dcfAlways-index</a></span><p>&nbsp;</div>
+<p>&nbsp;</p>
+<div style="position: absolute; width: 414px; height: 455px; z-index: 2; left: 656px; top: 89px" id="layer2">
+	<span style="font-size: 13pt">dcf message during one minute:</span><p>
+	<img border="0" src="zeitschema.jpg" width="400" height="398"></div>
+
+</body>
+
+</html>

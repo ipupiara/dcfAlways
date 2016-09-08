@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<target user="avr32" daisydevsbefore="0" connection-type="usb" address="" default="true" cpu="UC3A0512ES" binary-date="1216069880163" daisyenabled="false" board="EVK1100" daisybitsafter="0" id="1" daisybitsbefore="0" adapter="JTAGICE mkII" comport="" clocksource="0" os="" daisydevsafter="0" binary="C:\Micrium\Software\EvalBoards\Atmel\EVK1100\GNU\OS_Workspace\OS\Debug\OS_Debug.elf" name="JTAGICE mkII" serial="00B0000006C5">
+	<description></description>
+</target>

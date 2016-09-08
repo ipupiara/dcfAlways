@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="28" version="2.0">
+<workbenchAdvisor/>
+<window height="766" maximized="true" width="1024" x="22" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="210"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.atmel.avr32.core.ui.launchAVRStudio4" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.atmel.avr32.core.ui_win32.win32.x86.toolbar" itemType="typeToolBarContribution" x="37" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="161" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="49" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="161" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="133" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="111" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.asm.AsmEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1337429525026" focus="true" label="Workspace - AVR">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_drv.c" partName="usb_drv.c" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.c" title="usb_drv.c" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.c"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="intc.h" partName="intc.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.h" title="intc.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/intc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1285"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="exception.x" partName="exception.x" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/exception.x" title="exception.x" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/exception.x" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/INTC/exception.x"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="3648"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usbb.h" partName="usbb.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usbb.h" title="usbb.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usbb.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usbb.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="2456" selectionTopPixel="782"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_device_task.c" partName="usb_device_task.c" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_device_task.c" title="usb_device_task.c" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_device_task.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_device_task.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="2560"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_device_task.h" partName="usb_device_task.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_device_task.h" title="usb_device_task.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_device_task.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_device_task.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1489"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_standard_request.c" partName="usb_standard_request.c" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_standard_request.c" title="usb_standard_request.c" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_standard_request.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_standard_request.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="12114"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_standard_request.h" partName="usb_standard_request.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_standard_request.h" title="usb_standard_request.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_standard_request.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/DEVICE/usb_standard_request.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1727"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_host_enum.c" partName="usb_host_enum.c" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.c" title="usb_host_enum.c" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="8905"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_host_enum.h" partName="usb_host_enum.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.h" title="usb_host_enum.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="5075"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_host_task.c" partName="usb_host_task.c" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.c" title="usb_host_task.c" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="18948"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_host_task.h" partName="usb_host_task.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.h" title="usb_host_task.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="4226"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bsp.c" partName="bsp.c" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/BSP/bsp.c" title="bsp.c" tooltip="OS/BSP/bsp.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/BSP/bsp.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="22" selectionOffset="29168" selectionTopPixel="9605"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="os_core.c" partName="os_core.c" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/uCOS-II/Source/os_core.c" title="os_core.c" tooltip="OS/uCOS-II/Source/os_core.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/uCOS-II/Source/os_core.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="31499" selectionTopPixel="11152"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ucos_ii.h" partName="ucos_ii.h" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/uCOS-II/Source/ucos_ii.h" title="ucos_ii.h" tooltip="OS/uCOS-II/Source/ucos_ii.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/uCOS-II/Source/ucos_ii.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="29733" selectionTopPixel="9996"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="os_cpu.h" partName="os_cpu.h" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu.h" title="os_cpu.h" tooltip="OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="3343" selectionTopPixel="962"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="os_cpu_a.asm" partName="os_cpu_a.asm" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_a.asm" title="os_cpu_a.asm" tooltip="OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_a.asm" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_a.asm"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="12840" selectionTopPixel="4216"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="app.c" partName="app.c" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/App/app.c" title="app.c" tooltip="OS/App/app.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/App/app.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="21446" selectionTopPixel="12641"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="cpu.h" partName="cpu.h" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/uC-CPU/AVR32/UC3/GNU/cpu.h" title="cpu.h" tooltip="OS/uC-CPU/AVR32/UC3/GNU/cpu.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/uC-CPU/AVR32/UC3/GNU/cpu.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="13037" selectionTopPixel="3961"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="vectors.asm" partName="vectors.asm" path="C:/projects/dcfAlways-uC/dcfAlways-uc-A32SWin/OS_Workspace/OS/BSP/vectors.asm" title="vectors.asm" tooltip="OS/BSP/vectors.asm" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OS/BSP/vectors.asm"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="19171" selectionTopPixel="6494"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_drv.h" partName="usb_drv.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.h" title="usb_drv.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6452" selectionTopPixel="2064"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="parts.h" partName="parts.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/UTILS/parts.h" title="parts.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/UTILS/parts.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/UTILS/parts.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="734"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="board.h" partName="board.h" path="C:/projects/avr32test/src/SOFTWARE_FRAMEWORK/BOARDS/board.h" title="board.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/BOARDS/board.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/avr32test/src/SOFTWARE_FRAMEWORK/BOARDS/board.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="com.atmel.avr32.views.RegistersView" partName="AVR Registers">
+<viewState MEMENTO_LINK_WITH_EDITOR="false" MEMENTO_PROJECT="OS"/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="com.atmel.avr32.views.TargetView" partName="AVR Targets">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState>
+<isTrackingSelection value="false"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.cdt.debug.ui.DisassemblyView" partName="Disassembly">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="643" org.eclipse.ui.ide.markerType="166" org.eclipse.ui.ide.pathField="292" org.eclipse.ui.ide.resourceField="139" org.eclipse.ui.ide.severityAndDescriptionField="522"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.cdt.ui.callHierarchy" partName="Call Hierarchy">
+<viewState showFilesInLabels="false" variableFilter="false"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.atmel.avr32.AVR32Perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.atmel.avr.core.ui.AVRPerspective" id="com.atmel.avr32.AVR32Perspective" label="AVR"/>
+<alwaysOnActionSet id="com.atmel.avr32.actionSet"/>
+<alwaysOnActionSet id="com.atmel.avr32.target"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.buildConfigActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="com.atmel.avr32.views.TargetView"/>
+<show_view_action id="com.atmel.avr32.views.RegistersView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.cdt.ui.CView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.cdt.ui.includeBrowser"/>
+<new_wizard_action id="com.atmel.avr32.wizards.ProjectWizard.managed"/>
+<new_wizard_action id="com.atmel.avr32.wizards.ProjectWizard.managed.CPP"/>
+<new_wizard_action id="com.atmel.avr32.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="com.atmel.avr32.ui.wizards.NewFolderCreationWizard"/>
+<new_wizard_action id="com.atmel.avr32.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="com.atmel.avr32.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="com.atmel.avr32.ui.wizards.NewFileCreationWizard"/>
+<new_wizard_action id="com.atmel.avr32.wizards.NewFusesFileWizard"/>
+<new_wizard_action id="com.atmel.avr32.sf.core.ui.wizards.ManagedCProjectWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.atmel.avr32.views.TargetView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.cdt.ui.callHierarchy"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@58560" ratio="0.795572" ratioLeft="1078" ratioRight="277" relationship="2" relative="topLeft">
+<folder activePageID="org.eclipse.cdt.ui.callHierarchy" appearance="2" expanded="2">
+<page content="org.eclipse.cdt.ui.callHierarchy" label="Call Hierarchy"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@118abfe" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.43534884" ratioLeft="468" ratioRight="607" relationship="2" relative="topLeft"/>
+<info folder="true" part="right1" ratio="0.64931846" ratioLeft="524" ratioRight="283" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="right2" ratio="0.2997159" ratioLeft="211" ratioRight="493" relationship="4" relative="right1">
+<folder appearance="2" expanded="2">
+<page content="com.atmel.avr32.views.RegistersView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.75" ratioLeft="477" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@fe2509" ratio="0.5738994" ratioLeft="365" ratioRight="271" relationship="4" relative="topLeft">
+<folder activePageID="com.atmel.avr32.views.TargetView" appearance="2" expanded="2">
+<page content="com.atmel.avr32.views.TargetView" label="AVR Targets"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="com.atmel.avr32.actionSet"/>
+<alwaysOnActionSet id="com.atmel.avr32.target"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.atmel.avr32.debug.trace.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.atmel.avr32.views.RegistersView"/>
+<show_view_action id="com.atmel.avr32.debug.trace.TraceDataView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.SignalsView"/>
+<show_view_action id="org.eclipse.debug.ui.RegisterView"/>
+<show_view_action id="org.eclipse.debug.ui.MemoryView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.DisassemblyView"/>
+<show_view_action id="org.eclipse.cdt.debug.ui.ModulesView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<perspective_action id="com.atmel.avr32.AVR32Perspective"/>
+<perspective_action id="org.eclipse.cdt.ui.CPerspective"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="com.atmel.avr32.views.RegistersView"/>
+<view id="org.eclipse.cdt.debug.ui.DisassemblyView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6918239" ratioLeft="440" ratioRight="196" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.5941704" ratioLeft="265" ratioRight="181" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.5862884" ratioLeft="744" ratioRight="525" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.cdt.debug.ui.DisassemblyView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.debug.ui.DisassemblyView" label="Disassembly"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="com.atmel.avr32.views.RegistersView" label="AVR Registers"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.ModulesView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="com.atmel.avr32.debug.trace.TraceDataView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/BSP/bsp.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uCOS-II/Source/os_core.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_c.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uCOS-II/Source/ucos_ii.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_a.asm"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/App/app.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uCOS-II/Source/os_core.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uC-CPU/AVR32/UC3/GNU/cpu.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/OS/BSP/vectors.asm"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_a.asm"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_c.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usbb.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/avr32test/src/SOFTWARE_FRAMEWORK/UTILS/parts.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/avr32test/src/SOFTWARE_FRAMEWORK/BOARDS/board.h"/>
+</editors>
+<item historyLabel="bsp.c" index="0">
+<position info="not_deleted" x="68777" y="14"/>
+</item>
+<item historyLabel="bsp.c" index="0">
+<position info="not_deleted" x="69018" y="0"/>
+</item>
+<item historyLabel="bsp.c" index="0">
+<position info="not_deleted" x="68673" y="11"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="36012" y="7"/>
+</item>
+<item historyLabel="os_cpu_c.c" index="2">
+<position info="not_deleted" x="16205" y="12"/>
+</item>
+<item historyLabel="os_cpu_c.c" index="2">
+<position info="not_deleted" x="16247" y="12"/>
+</item>
+<item historyLabel="os_cpu_c.c" index="2">
+<position info="not_deleted" x="16260" y="12"/>
+</item>
+<item historyLabel="os_cpu_c.c" index="2">
+<position info="not_deleted" x="16274" y="11"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="36012" y="7"/>
+</item>
+<item historyLabel="ucos_ii.h" index="3">
+<position info="not_deleted" x="29733" y="11"/>
+</item>
+<item historyLabel="os_cpu.h" index="4">
+<position info="not_deleted" x="4279" y="12"/>
+</item>
+<item historyLabel="os_cpu_a.asm" index="5">
+<position info="not_deleted" x="10326" y="12"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="36012" y="7"/>
+</item>
+<item historyLabel="app.c" index="6">
+<position info="not_deleted" x="21446" y="7"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="36012" y="7"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="36073" y="11"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="71960" y="10"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="72370" y="0"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="36012" y="7"/>
+</item>
+<item historyLabel="os_cpu_c.c" index="2">
+<position info="not_deleted" x="16205" y="12"/>
+</item>
+<item historyLabel="app.c" index="6">
+<position info="not_deleted" x="21446" y="7"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="26331" y="6"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="27425" y="15"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="59415" y="15"/>
+</item>
+<item historyLabel="app.c" index="6">
+<position info="not_deleted" x="21446" y="7"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="59431" y="11"/>
+</item>
+<item historyLabel="os_core.c" index="1">
+<position info="not_deleted" x="76529" y="19"/>
+</item>
+<item historyLabel="bsp.c" index="0">
+<position info="not_deleted" x="68673" y="11"/>
+</item>
+<item historyLabel="os_core.c" index="7">
+<position info="not_deleted" x="76529" y="19"/>
+</item>
+<item historyLabel="os_core.c" index="7">
+<position info="not_deleted" x="39130" y="14"/>
+</item>
+<item historyLabel="os_cpu.h" index="8">
+<position info="not_deleted" x="4279" y="12"/>
+</item>
+<item historyLabel="os_cpu.h" index="8">
+<position info="not_deleted" x="3343" y="17"/>
+</item>
+<item historyLabel="cpu.h" index="9">
+<position info="not_deleted" x="12631" y="17"/>
+</item>
+<item historyLabel="cpu.h" index="9">
+<position info="not_deleted" x="12664" y="14"/>
+</item>
+<item historyLabel="cpu.h" index="9">
+<position info="not_deleted" x="13037" y="14"/>
+</item>
+<item historyLabel="bsp.c" index="0">
+<position info="not_deleted" x="71159" y="10"/>
+</item>
+<item historyLabel="os_core.c" index="7">
+<position info="not_deleted" x="41982" y="0"/>
+</item>
+<item historyLabel="bsp.c" index="0">
+<position info="not_deleted" x="29168" y="22"/>
+</item>
+<item historyLabel="vectors.asm" index="10">
+<position info="not_deleted" x="19171" y="4"/>
+</item>
+<item historyLabel="os_cpu_a.asm" index="11">
+<position info="not_deleted" x="10326" y="12"/>
+</item>
+<item historyLabel="os_cpu_a.asm" index="11">
+<position info="not_deleted" x="12840" y="15"/>
+</item>
+<item historyLabel="os_core.c" index="7">
+<position info="not_deleted" x="30647" y="9"/>
+</item>
+<item historyLabel="os_cpu_c.c" index="12">
+<position info="not_deleted" x="16205" y="12"/>
+</item>
+<item historyLabel="os_cpu_c.c" index="12">
+<position info="not_deleted" x="14618" y="0"/>
+</item>
+<item historyLabel="usb_drv.c" index="13"/>
+<item historyLabel="usbb.h" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="usbb.h" index="14">
+<position info="not_deleted" x="2456" y="10"/>
+</item>
+<item historyLabel="usb_drv.h" index="15">
+<position info="not_deleted" x="104879" y="15"/>
+</item>
+<item historyLabel="parts.h" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="board.h" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="board.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/BOARDS/board.h">
+<persistable path="/avr32test/src/SOFTWARE_FRAMEWORK/BOARDS/board.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="parts.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/UTILS/parts.h">
+<persistable path="/avr32test/src/SOFTWARE_FRAMEWORK/UTILS/parts.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_drv.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.h">
+<persistable path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/usb_drv.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="vectors.asm" tooltip="OS/BSP/vectors.asm">
+<persistable path="/OS/BSP/vectors.asm"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cpu.h" tooltip="OS/uC-CPU/AVR32/UC3/GNU/cpu.h">
+<persistable path="/OS/uC-CPU/AVR32/UC3/GNU/cpu.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="app.c" tooltip="OS/App/app.c">
+<persistable path="/OS/App/app.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="os_cpu_a.asm" tooltip="OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_a.asm">
+<persistable path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_a.asm"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="os_cpu.h" tooltip="OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu.h">
+<persistable path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ucos_ii.h" tooltip="OS/uCOS-II/Source/ucos_ii.h">
+<persistable path="/OS/uCOS-II/Source/ucos_ii.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="os_cpu_c.c" tooltip="OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_c.c">
+<persistable path="/OS/uCOS-II/Ports/AVR32/UC3/GNU/os_cpu_c.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="os_core.c" tooltip="OS/uCOS-II/Source/os_core.c">
+<persistable path="/OS/uCOS-II/Source/os_core.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bsp.c" tooltip="OS/BSP/bsp.c">
+<persistable path="/OS/BSP/bsp.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_host_task.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.h">
+<persistable path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_host_task.c" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.c">
+<persistable path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_task.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_host_enum.h" tooltip="avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.h">
+<persistable path="/avr32test/src/SOFTWARE_FRAMEWORK/DRIVERS/USBB/ENUM/HOST/usb_host_enum.h"/>
+</file>
+</mruList>
+</workbench>
